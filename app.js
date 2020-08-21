@@ -108,8 +108,8 @@ const createTeam = () => {
                  ]
       }
     ]);
-
-    switch (answer.addTeam) {
+// Same as if else statement
+    switch (answer.addTeam) { 
       case 'Engineer':
         addEngineer();
         break;
@@ -119,7 +119,7 @@ const createTeam = () => {
         break;
 
       default:
-        fs.writeFileSync(outputPath, render(teamMembers), 'utf-8');
+        fs.writeFileSync(outputPath, render(teamMembers), 'utf-8'); //Create HTML
         break;
     }
   };

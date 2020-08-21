@@ -1,4 +1,4 @@
-## Project Overview
+# Project Overview
 For this project we had to create a Employee Hierarchy using Node CML that takes in information about employees and generates an HTML webpage that displays summaries for each person. The end user will have the ability to enter multiple employee types, a manager, intern, and engineer. The code had to match the unit testing requirements so the code created matched the end users requirements. Once all unit testing is passed a HTML file should be produced to with the employee's and there role in the company.  
 
 [![Watch the video](image.png)](https://youtu.be/1HNwUI_dqtc)
